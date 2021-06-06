@@ -1,0 +1,25 @@
+.status {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  cursor: pointer;
+}
+
+.status__img {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.status__name {
+  width: 80px;
+  overflow: hidden;
+  font-size: small;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+::-webkit-scrollbar {
+  display: none;
+}

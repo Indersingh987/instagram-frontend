@@ -1,0 +1,16 @@
+.comment {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.comment__text {
+  margin-left: 5px;
+}
+
+.comment > .MuiSvgIcon-root {
+  margin-left: auto;
+  font-size: 15px !important;
+  color: gray;
+  cursor: pointer;
+}
