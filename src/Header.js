@@ -11,7 +11,8 @@ const Header = () => {
         <div className='header'>
             <div className='container'>
                 <img className='header__brand'
-                src='images/instagram_logo.png'/>
+                src='images/instagram_logo.png'
+                alt='instagram'/>
 
                 <input className='header__search' placeholder='search'/>
 

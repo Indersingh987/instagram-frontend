@@ -1,0 +1,23 @@
+.suggestion {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.suggestion__info {
+  margin-left: 10px;
+  flex: 1;
+}
+
+.suggestion__info > p {
+  font-size: small;
+  font-weight: 500;
+  color: gray;
+}
+
+.suggestion > a {
+  color: blue;
+  font-size: small;
+  font-weight: 500;
+  text-decoration: none;
+}
